@@ -1,0 +1,8 @@
+{
+    "operation": [{
+        "id": 1,
+        "montant": 100,
+        "categorie": "loisirs",
+        "date": ""
+    }]
+}

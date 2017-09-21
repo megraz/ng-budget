@@ -1,0 +1,14 @@
+<ul>
+    <li *ngFor="let item of table; index as clef">
+        {{item}}
+        <button (click)="removeBudget(clef)">X</button>
+    </li>
+</ul>
+<label for="title">Date</label>
+<input type="date" name="date" form="add" placeholder="date">
+<label for="title">Description</label>
+<input type="text" name="description" form="add" placeholder="description">
+<label for="title">Montant</label>
+<input type="number" name="montant" form="add" placeholder="montant">
+
+<input type="submit" value="Add" form="add" placeholder="">
