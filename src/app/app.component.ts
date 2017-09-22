@@ -7,19 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  input:boolean = false;
-  gbudget = {
-    date: '',
-    description: '',
-    montant: '',
-    categorie: ''
-  };
+  selectedPage = 'operation';
 
-  constructor(){}
-  ngOnInit() {
+  constructor() { }
+  ngOnInit() {}
   }
-
-  afficher() {
-    console.log(this.gbudget);
-  }
-}
